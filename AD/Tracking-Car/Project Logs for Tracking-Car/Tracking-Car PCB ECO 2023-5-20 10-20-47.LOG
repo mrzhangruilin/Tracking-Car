@@ -1,0 +1,392 @@
+Added Component: Designator=C1(0805)
+Add component (AddParameter): Name = "单位"; Value = "个"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "名称"; Value = "贴片电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装"; Value = "0805"; VariantName = "[No Variations]"
+Added Component: Designator=C2(0805)
+Add component (AddParameter): Name = "单位"; Value = "个"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "名称"; Value = "贴片电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装"; Value = "0805"; VariantName = "[No Variations]"
+Added Component: Designator=C3(0805)
+Add component (AddParameter): Name = "单位"; Value = "个"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "名称"; Value = "贴片电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装"; Value = "0805"; VariantName = "[No Variations]"
+Added Component: Designator=C4(0805)
+Add component (AddParameter): Name = "单位"; Value = "个"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "名称"; Value = "贴片电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装"; Value = "0805"; VariantName = "[No Variations]"
+Added Component: Designator=C5(0805)
+Add component (AddParameter): Name = "单位"; Value = "个"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "名称"; Value = "贴片电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装"; Value = "0805"; VariantName = "[No Variations]"
+Added Component: Designator=C6(0805)
+Add component (AddParameter): Name = "单位"; Value = "个"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "名称"; Value = "贴片电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装"; Value = "0805"; VariantName = "[No Variations]"
+Added Component: Designator=C7(0805)
+Add component (AddParameter): Name = "单位"; Value = "个"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "名称"; Value = "贴片电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装"; Value = "0805"; VariantName = "[No Variations]"
+Added Component: Designator=C8(0805)
+Add component (AddParameter): Name = "单位"; Value = "个"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "名称"; Value = "贴片电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装"; Value = "0805"; VariantName = "[No Variations]"
+Added Component: Designator=C9(0805)
+Add component (AddParameter): Name = "单位"; Value = "个"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "名称"; Value = "贴片电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装"; Value = "0805"; VariantName = "[No Variations]"
+Added Component: Designator=C10(0805)
+Add component (AddParameter): Name = "单位"; Value = "个"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "名称"; Value = "贴片电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装"; Value = "0805"; VariantName = "[No Variations]"
+Added Component: Designator=C11(0805)
+Add component (AddParameter): Name = "单位"; Value = "个"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "名称"; Value = "贴片电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装"; Value = "0805"; VariantName = "[No Variations]"
+Added Component: Designator=C12(0805)
+Add component (AddParameter): Name = "单位"; Value = "个"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "名称"; Value = "贴片电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装"; Value = "0805"; VariantName = "[No Variations]"
+Added Component: Designator=C13(0805)
+Add component (AddParameter): Name = "单位"; Value = "个"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "名称"; Value = "贴片电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装"; Value = "0805"; VariantName = "[No Variations]"
+Added Component: Designator=D1(二极管 贴片 IN4148)
+Add component (AddParameter): Name = "单位"; Value = "个"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "名称"; Value = "贴片二极管"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装"; Value = "贴片"; VariantName = "[No Variations]"
+Added Component: Designator=J1(单排插针 2.54 1*3)
+Add component (AddParameter): Name = "单位"; Value = "个"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "名称"; Value = "跳线插针"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装"; Value = "直插"; VariantName = "[No Variations]"
+Added Component: Designator=LED1(LED0805)
+Add component (AddParameter): Name = "单位"; Value = "个"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "名称"; Value = "贴片发光二极管"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装"; Value = "0805"; VariantName = "[No Variations]"
+Added Component: Designator=P1(VH2.54_4)
+Add component (AddParameter): Name = "单位"; Value = "套"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "名称"; Value = "联结件"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装"; Value = "XH2.54-4"; VariantName = "[No Variations]"
+Added Component: Designator=P2(VH2.54_4)
+Add component (AddParameter): Name = "单位"; Value = "套"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "名称"; Value = "联结件"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装"; Value = "XH2.54-4"; VariantName = "[No Variations]"
+Added Component: Designator=P3(VH2.54_4)
+Add component (AddParameter): Name = "单位"; Value = "套"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "名称"; Value = "联结件"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装"; Value = "XH2.54-4"; VariantName = "[No Variations]"
+Added Component: Designator=P4(VH2.54_4)
+Add component (AddParameter): Name = "单位"; Value = "套"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "名称"; Value = "联结件"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装"; Value = "XH2.54-4"; VariantName = "[No Variations]"
+Added Component: Designator=P5(VH2.54_4)
+Add component (AddParameter): Name = "单位"; Value = "套"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "名称"; Value = "联结件"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装"; Value = "XH2.54-4"; VariantName = "[No Variations]"
+Added Component: Designator=P6(单排插针 2.54 1*5)
+Add component (AddParameter): Name = "单位"; Value = "片"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "名称"; Value = "单排插针"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装"; Value = "DIP"; VariantName = "[No Variations]"
+Added Component: Designator=P7(单排插针 2.54 1*5)
+Add component (AddParameter): Name = "单位"; Value = "片"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "名称"; Value = "单排插针"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装"; Value = "DIP"; VariantName = "[No Variations]"
+Added Component: Designator=P8(焊盘)
+Add component (AddParameter): Name = "单位"; Value = "个"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "名称"; Value = "焊盘"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装"; Value = "直插"; VariantName = "[No Variations]"
+Added Component: Designator=P9(焊盘)
+Add component (AddParameter): Name = "单位"; Value = "个"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "名称"; Value = "焊盘"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装"; Value = "直插"; VariantName = "[No Variations]"
+Added Component: Designator=P10(焊盘)
+Add component (AddParameter): Name = "单位"; Value = "个"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "名称"; Value = "焊盘"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装"; Value = "直插"; VariantName = "[No Variations]"
+Added Component: Designator=P11(USB MINI DIP)
+Add component (AddParameter): Name = "单位"; Value = "个"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "名称"; Value = "联结件"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装"; Value = "440068"; VariantName = "[No Variations]"
+Added Component: Designator=P12(焊盘)
+Add component (AddParameter): Name = "单位"; Value = "个"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "名称"; Value = "焊盘"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装"; Value = "直插"; VariantName = "[No Variations]"
+Added Component: Designator=P13(双排插针 2.54 2*4)
+Add component (AddParameter): Name = "单位"; Value = "个"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "名称"; Value = "联结件"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装"; Value = "直插"; VariantName = "[No Variations]"
+Added Component: Designator=P14(焊盘)
+Add component (AddParameter): Name = "单位"; Value = "个"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "名称"; Value = "焊盘"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装"; Value = "直插"; VariantName = "[No Variations]"
+Added Component: Designator=P15(焊盘)
+Add component (AddParameter): Name = "单位"; Value = "个"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "名称"; Value = "焊盘"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装"; Value = "直插"; VariantName = "[No Variations]"
+Added Component: Designator=P16(VH2.54_2)
+Add component (AddParameter): Name = "单位"; Value = "套"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "名称"; Value = "联结件"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装"; Value = "VH3.96-2"; VariantName = "[No Variations]"
+Added Component: Designator=P17(焊盘)
+Add component (AddParameter): Name = "单位"; Value = "个"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "名称"; Value = "焊盘"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装"; Value = "直插"; VariantName = "[No Variations]"
+Added Component: Designator=P18(焊盘)
+Add component (AddParameter): Name = "单位"; Value = "个"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "名称"; Value = "焊盘"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装"; Value = "直插"; VariantName = "[No Variations]"
+Added Component: Designator=P19(焊盘)
+Add component (AddParameter): Name = "单位"; Value = "个"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "名称"; Value = "焊盘"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装"; Value = "直插"; VariantName = "[No Variations]"
+Added Component: Designator=R1(0805)
+Add component (AddParameter): Name = "单位"; Value = "个"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "名称"; Value = "贴片电阻"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装"; Value = "0805"; VariantName = "[No Variations]"
+Added Component: Designator=R2(0805)
+Add component (AddParameter): Name = "单位"; Value = "个"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "名称"; Value = "贴片电阻"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装"; Value = "0805"; VariantName = "[No Variations]"
+Added Component: Designator=R3(0805)
+Add component (AddParameter): Name = "单位"; Value = "个"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "名称"; Value = "贴片电阻"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装"; Value = "0805"; VariantName = "[No Variations]"
+Added Component: Designator=R4(0805)
+Add component (AddParameter): Name = "单位"; Value = "个"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "名称"; Value = "贴片电阻"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装"; Value = "0805"; VariantName = "[No Variations]"
+Added Component: Designator=R5(0805)
+Add component (AddParameter): Name = "单位"; Value = "个"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "名称"; Value = "贴片电阻"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装"; Value = "0805"; VariantName = "[No Variations]"
+Added Component: Designator=S1(按键 轻触  6*3)
+Add component (AddParameter): Name = "单位"; Value = "个"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "名称"; Value = "开关"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装"; Value = "直插 12*12*12"; VariantName = "[No Variations]"
+Added Component: Designator=U1(LQFP64)
+Add component (AddParameter): Name = "单位"; Value = "片"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "名称"; Value = "芯片"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装"; Value = "LQFP64"; VariantName = "[No Variations]"
+Added Component: Designator=U2(SOIC16)
+Add component (AddParameter): Name = "单位"; Value = "片"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "名称"; Value = "贴片芯片"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装"; Value = "SOIC16"; VariantName = "[No Variations]"
+Added Component: Designator=U3(SOT223)
+Add component (AddParameter): Name = "单位"; Value = "个"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "名称"; Value = "贴片芯片"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装"; Value = "SOT223"; VariantName = "[No Variations]"
+Added Component: Designator=Y1(晶振 BCY-W2/E4.7)
+Add component (AddParameter): Name = "单位"; Value = "个"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "名称"; Value = "晶振"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装"; Value = "直插矮"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3.3V Pin=C2-2
+Added Pin To Net: NetName=3.3V Pin=C7-1
+Added Pin To Net: NetName=3.3V Pin=C8-1
+Added Pin To Net: NetName=3.3V Pin=C9-1
+Added Pin To Net: NetName=3.3V Pin=D1-1
+Added Pin To Net: NetName=3.3V Pin=J1-3
+Added Pin To Net: NetName=3.3V Pin=P1-1
+Added Pin To Net: NetName=3.3V Pin=P2-1
+Added Pin To Net: NetName=3.3V Pin=P3-1
+Added Pin To Net: NetName=3.3V Pin=P4-1
+Added Pin To Net: NetName=3.3V Pin=P5-1
+Added Pin To Net: NetName=3.3V Pin=P13-1
+Added Pin To Net: NetName=3.3V Pin=P13-3
+Added Pin To Net: NetName=3.3V Pin=R1-1
+Added Pin To Net: NetName=3.3V Pin=R3-2
+Added Pin To Net: NetName=3.3V Pin=U1-19
+Added Pin To Net: NetName=3.3V Pin=U1-32
+Added Pin To Net: NetName=3.3V Pin=U1-48
+Added Pin To Net: NetName=3.3V Pin=U1-64
+Added Net: Name=3.3V
+Added Pin To Net: NetName=5V Pin=C10-2
+Added Pin To Net: NetName=5V Pin=C11-2
+Added Pin To Net: NetName=5V Pin=P11-1
+Added Pin To Net: NetName=5V Pin=P13-5
+Added Pin To Net: NetName=5V Pin=P13-7
+Added Pin To Net: NetName=5V Pin=P16-1
+Added Pin To Net: NetName=5V Pin=U2-9
+Added Pin To Net: NetName=5V Pin=U3-3
+Added Net: Name=5V
+Added Pin To Net: NetName=BOOT0 Pin=R2-2
+Added Pin To Net: NetName=BOOT0 Pin=U1-60
+Added Net: Name=BOOT0
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=GND Pin=C5-2
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Pin To Net: NetName=GND Pin=C7-2
+Added Pin To Net: NetName=GND Pin=C8-2
+Added Pin To Net: NetName=GND Pin=C9-2
+Added Pin To Net: NetName=GND Pin=J1-1
+Added Pin To Net: NetName=GND Pin=P1-4
+Added Pin To Net: NetName=GND Pin=P2-4
+Added Pin To Net: NetName=GND Pin=P3-4
+Added Pin To Net: NetName=GND Pin=P4-4
+Added Pin To Net: NetName=GND Pin=P5-4
+Added Pin To Net: NetName=GND Pin=P11-8
+Added Pin To Net: NetName=GND Pin=P13-2
+Added Pin To Net: NetName=GND Pin=P13-4
+Added Pin To Net: NetName=GND Pin=P13-6
+Added Pin To Net: NetName=GND Pin=P13-8
+Added Pin To Net: NetName=GND Pin=R4-2
+Added Pin To Net: NetName=GND Pin=S1-1
+Added Pin To Net: NetName=GND Pin=U1-12
+Added Pin To Net: NetName=GND Pin=U1-18
+Added Pin To Net: NetName=GND Pin=U1-31
+Added Pin To Net: NetName=GND Pin=U1-47
+Added Pin To Net: NetName=GND Pin=U1-63
+Added Pin To Net: NetName=GND Pin=U2-8
+Added Net: Name=GND
+Added Pin To Net: NetName=I2C_SCL Pin=P2-3
+Added Pin To Net: NetName=I2C_SCL Pin=U1-58
+Added Net: Name=I2C_SCL
+Added Pin To Net: NetName=I2C_SDA Pin=P2-2
+Added Pin To Net: NetName=I2C_SDA Pin=U1-59
+Added Net: Name=I2C_SDA
+Added Pin To Net: NetName=MOTOR_LF Pin=U1-37
+Added Pin To Net: NetName=MOTOR_LF Pin=U2-4
+Added Net: Name=MOTOR_LF
+Added Pin To Net: NetName=MOTOR_LR Pin=U1-39
+Added Pin To Net: NetName=MOTOR_LR Pin=U2-2
+Added Net: Name=MOTOR_LR
+Added Pin To Net: NetName=MOTOR_RF Pin=U1-38
+Added Pin To Net: NetName=MOTOR_RF Pin=U2-3
+Added Net: Name=MOTOR_RF
+Added Pin To Net: NetName=MOTOR_RR Pin=U1-40
+Added Pin To Net: NetName=MOTOR_RR Pin=U2-1
+Added Net: Name=MOTOR_RR
+Added Pin To Net: NetName=NetC1_2 Pin=C1-2
+Added Pin To Net: NetName=NetC1_2 Pin=R1-2
+Added Pin To Net: NetName=NetC1_2 Pin=S1-2
+Added Pin To Net: NetName=NetC1_2 Pin=U1-7
+Added Net: Name=NetC1_2
+Added Pin To Net: NetName=NetC3_2 Pin=C3-2
+Added Pin To Net: NetName=NetC3_2 Pin=U1-5
+Added Pin To Net: NetName=NetC3_2 Pin=Y1-2
+Added Net: Name=NetC3_2
+Added Pin To Net: NetName=NetC4_2 Pin=C4-2
+Added Pin To Net: NetName=NetC4_2 Pin=U1-6
+Added Pin To Net: NetName=NetC4_2 Pin=Y1-1
+Added Net: Name=NetC4_2
+Added Pin To Net: NetName=NetC5_1 Pin=C5-1
+Added Pin To Net: NetName=NetC5_1 Pin=C6-1
+Added Pin To Net: NetName=NetC5_1 Pin=R3-1
+Added Pin To Net: NetName=NetC5_1 Pin=U1-13
+Added Net: Name=NetC5_1
+Added Pin To Net: NetName=NetC10_1 Pin=C10-1
+Added Pin To Net: NetName=NetC10_1 Pin=C11-1
+Added Pin To Net: NetName=NetC10_1 Pin=C12-1
+Added Pin To Net: NetName=NetC10_1 Pin=C13-1
+Added Pin To Net: NetName=NetC10_1 Pin=LED1-2
+Added Pin To Net: NetName=NetC10_1 Pin=P16-2
+Added Pin To Net: NetName=NetC10_1 Pin=U3-1
+Added Net: Name=NetC10_1
+Added Pin To Net: NetName=NetC12_2 Pin=C12-2
+Added Pin To Net: NetName=NetC12_2 Pin=C13-2
+Added Pin To Net: NetName=NetC12_2 Pin=R5-2
+Added Pin To Net: NetName=NetC12_2 Pin=U3-2
+Added Pin To Net: NetName=NetC12_2 Pin=U3-4
+Added Net: Name=NetC12_2
+Added Pin To Net: NetName=NetD1_2 Pin=D1-2
+Added Pin To Net: NetName=NetD1_2 Pin=U1-1
+Added Net: Name=NetD1_2
+Added Pin To Net: NetName=NetJ1_2 Pin=J1-2
+Added Pin To Net: NetName=NetJ1_2 Pin=R2-1
+Added Net: Name=NetJ1_2
+Added Pin To Net: NetName=NetLED1_1 Pin=LED1-1
+Added Pin To Net: NetName=NetLED1_1 Pin=R5-1
+Added Net: Name=NetLED1_1
+Added Pin To Net: NetName=NetP8_1 Pin=P8-1
+Added Pin To Net: NetName=NetP8_1 Pin=U2-16
+Added Net: Name=NetP8_1
+Added Pin To Net: NetName=NetP9_1 Pin=P9-1
+Added Pin To Net: NetName=NetP9_1 Pin=U2-15
+Added Net: Name=NetP9_1
+Added Pin To Net: NetName=NetP10_1 Pin=P10-1
+Added Pin To Net: NetName=NetP10_1 Pin=U2-14
+Added Net: Name=NetP10_1
+Added Pin To Net: NetName=NetP11_5 Pin=P11-5
+Added Pin To Net: NetName=NetP11_5 Pin=P11-7
+Added Net: Name=NetP11_5
+Added Pin To Net: NetName=NetP11_6 Pin=P11-6
+Added Pin To Net: NetName=NetP11_6 Pin=P11-9
+Added Net: Name=NetP11_6
+Added Pin To Net: NetName=NetP12_1 Pin=P12-1
+Added Pin To Net: NetName=NetP12_1 Pin=U2-13
+Added Net: Name=NetP12_1
+Added Pin To Net: NetName=NetR4_1 Pin=R4-1
+Added Pin To Net: NetName=NetR4_1 Pin=U1-28
+Added Net: Name=NetR4_1
+Added Pin To Net: NetName=PB0 Pin=P6-1
+Added Pin To Net: NetName=PB0 Pin=U1-26
+Added Net: Name=PB0
+Added Pin To Net: NetName=PB1 Pin=P6-2
+Added Pin To Net: NetName=PB1 Pin=U1-27
+Added Net: Name=PB1
+Added Pin To Net: NetName=PB3 Pin=P6-3
+Added Pin To Net: NetName=PB3 Pin=U1-55
+Added Net: Name=PB3
+Added Pin To Net: NetName=PB4 Pin=P6-4
+Added Pin To Net: NetName=PB4 Pin=U1-56
+Added Net: Name=PB4
+Added Pin To Net: NetName=PB5 Pin=P6-5
+Added Pin To Net: NetName=PB5 Pin=U1-57
+Added Net: Name=PB5
+Added Pin To Net: NetName=PC0 Pin=P7-1
+Added Pin To Net: NetName=PC0 Pin=U1-8
+Added Net: Name=PC0
+Added Pin To Net: NetName=PC1 Pin=P7-2
+Added Pin To Net: NetName=PC1 Pin=U1-9
+Added Net: Name=PC1
+Added Pin To Net: NetName=PC2 Pin=P7-3
+Added Pin To Net: NetName=PC2 Pin=U1-10
+Added Net: Name=PC2
+Added Pin To Net: NetName=PC3 Pin=P7-4
+Added Pin To Net: NetName=PC3 Pin=U1-11
+Added Net: Name=PC3
+Added Pin To Net: NetName=PC4 Pin=P7-5
+Added Pin To Net: NetName=PC4 Pin=U1-24
+Added Net: Name=PC4
+Added Pin To Net: NetName=SWCLK Pin=P1-3
+Added Pin To Net: NetName=SWCLK Pin=U1-49
+Added Net: Name=SWCLK
+Added Pin To Net: NetName=SWDIO Pin=P1-2
+Added Pin To Net: NetName=SWDIO Pin=U1-46
+Added Net: Name=SWDIO
+Added Pin To Net: NetName=Tracking_L1 Pin=P14-1
+Added Pin To Net: NetName=Tracking_L1 Pin=U1-14
+Added Net: Name=Tracking_L1
+Added Pin To Net: NetName=Tracking_L2 Pin=P15-1
+Added Pin To Net: NetName=Tracking_L2 Pin=U1-15
+Added Net: Name=Tracking_L2
+Added Pin To Net: NetName=Tracking_Mi Pin=P17-1
+Added Pin To Net: NetName=Tracking_Mi Pin=U1-20
+Added Net: Name=Tracking_Mi
+Added Pin To Net: NetName=Tracking_R1 Pin=P19-1
+Added Pin To Net: NetName=Tracking_R1 Pin=U1-22
+Added Net: Name=Tracking_R1
+Added Pin To Net: NetName=Tracking_R2 Pin=P18-1
+Added Pin To Net: NetName=Tracking_R2 Pin=U1-21
+Added Net: Name=Tracking_R2
+Added Pin To Net: NetName=U1_RX Pin=P4-2
+Added Pin To Net: NetName=U1_RX Pin=U1-43
+Added Net: Name=U1_RX
+Added Pin To Net: NetName=U1_TX Pin=P4-3
+Added Pin To Net: NetName=U1_TX Pin=U1-42
+Added Net: Name=U1_TX
+Added Pin To Net: NetName=U2_RX Pin=P3-2
+Added Pin To Net: NetName=U2_RX Pin=U1-17
+Added Net: Name=U2_RX
+Added Pin To Net: NetName=U2_TX Pin=P3-3
+Added Pin To Net: NetName=U2_TX Pin=U1-16
+Added Net: Name=U2_TX
+Added Pin To Net: NetName=U3_RX Pin=P5-2
+Added Pin To Net: NetName=U3_RX Pin=U1-30
+Added Net: Name=U3_RX
+Added Pin To Net: NetName=U3_TX Pin=P5-3
+Added Pin To Net: NetName=U3_TX Pin=U1-29
+Added Net: Name=U3_TX
+Added Class: Name=Tracking-Car
+Added Room: Name=Tracking-Car
