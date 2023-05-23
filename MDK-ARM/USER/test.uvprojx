@@ -54,8 +54,8 @@
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
           <CreateHexFile>1</CreateHexFile>
-          <DebugInformation>1</DebugInformation>
-          <BrowseInformation>1</BrowseInformation>
+          <DebugInformation>0</DebugInformation>
+          <BrowseInformation>0</BrowseInformation>
           <ListingPath>..\OBJ\</ListingPath>
           <HexFormatSelection>1</HexFormatSelection>
           <Merge32K>0</Merge32K>
@@ -337,7 +337,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F10X_HD</Define>
               <Undefine></Undefine>
-              <IncludePath>..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\HARDWARE;..\BSP\Inc</IncludePath>
+              <IncludePath>..\Drivers\SYS\Inc;..\Drivers\BSP\Inc</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -379,7 +379,7 @@
       </TargetOption>
       <Groups>
         <Group>
-          <GroupName>Source Group 1</GroupName>
+          <GroupName>Start</GroupName>
           <Files>
             <File>
               <FileName>startup_stm32f10x_hd.s</FileName>
@@ -399,26 +399,6 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>SYSTEM</GroupName>
-          <Files>
-            <File>
-              <FileName>delay.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\SYSTEM\delay\delay.c</FilePath>
-            </File>
-            <File>
-              <FileName>sys.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\SYSTEM\sys\sys.c</FilePath>
-            </File>
-            <File>
-              <FileName>usart.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\SYSTEM\usart\usart.c</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
           <GroupName>README</GroupName>
           <Files>
             <File>
@@ -429,32 +409,15 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>HARDWARE</GroupName>
-          <Files>
-            <File>
-              <FileName>MY_LED.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\HARDWARE\MY_LED.c</FilePath>
-            </File>
-          </Files>
+          <GroupName>Drivers/BSP</GroupName>
         </Group>
         <Group>
-          <GroupName>BSP</GroupName>
+          <GroupName>Drivers/SYS</GroupName>
           <Files>
             <File>
-              <FileName>bsp_timer.c</FileName>
+              <FileName>sys.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\BSP\Src\bsp_timer.c</FilePath>
-            </File>
-            <File>
-              <FileName>bsp_i2c.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\BSP\Src\bsp_i2c.c</FilePath>
-            </File>
-            <File>
-              <FileName>bsp_at24c02.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\BSP\Src\bsp_at24c02.c</FilePath>
+              <FilePath>..\Drivers\SYS\Src\sys.c</FilePath>
             </File>
           </Files>
         </Group>

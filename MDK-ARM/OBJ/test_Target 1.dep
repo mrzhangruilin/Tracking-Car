@@ -1,0 +1,8 @@
+Dependencies for Project 'test', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_stm32f10x_hd.s)(0x54B0B2F0)(--cpu Cortex-M3 --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 524" --pd "STM32F10X_HD SETA 1"--list ..\obj\startup_stm32f10x_hd.lst --xref -o ..\obj\startup_stm32f10x_hd.o --depend ..\obj\startup_stm32f10x_hd.d)
+F (.\test.c)(0x64485D72)(--c99 -c --cpu Cortex-M3 -O3 --apcs=interwork --split_sections -I ..\Drivers\SYS\Inc -I ..\Drivers\BSP\Inc-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD-o ..\obj\test.o --depend ..\obj\test.d)
+I (..\Drivers\SYS\Inc\stm32f10x.h)(0x4F1E2E3E)
+I (..\Drivers\SYS\Inc\core_cm3.h)(0x4D523B5A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\Drivers\SYS\Inc\system_stm32f10x.h)(0x4F1E2E3E)
+F (..\README.TXT)(0x55C9BF78)()
