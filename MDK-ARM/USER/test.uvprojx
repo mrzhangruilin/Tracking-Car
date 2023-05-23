@@ -410,6 +410,18 @@
         </Group>
         <Group>
           <GroupName>Drivers/BSP</GroupName>
+          <Files>
+            <File>
+              <FileName>Tracking.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Drivers\BSP\Src\Tracking.c</FilePath>
+            </File>
+            <File>
+              <FileName>Control.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Drivers\BSP\Src\Control.c</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>Drivers/SYS</GroupName>
