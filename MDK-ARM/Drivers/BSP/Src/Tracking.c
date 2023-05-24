@@ -1,6 +1,5 @@
 #include "Tracking.h"
 #include "Control.h"
-#include "stdio.h"
 
 void Tracking_Init(void)
 {
@@ -25,18 +24,14 @@ void EXTI0_IRQHandler(void)//中断函数
                                                                         //调用左转
         EXTI->PR|=(1<<0);
 	}
-	
 }
 void EXTI4_IRQHandler(void)//中断函数
 {
-	
 	if(GPIOA->ODR&&(1<<4))
 	{   
                                                                         //直行
         EXTI->PR|=(1<<4);
 	}
-	
-	
 }
 void EXTI9_5_IRQHandler(void)//中断函数
 {
@@ -45,9 +40,7 @@ void EXTI9_5_IRQHandler(void)//中断函数
 	{   
                                                                        //右转
 		EXTI->PR|=(1<<6);
-	
 	}
-	
 }
 	
 	

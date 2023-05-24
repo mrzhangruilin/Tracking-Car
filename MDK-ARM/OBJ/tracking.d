@@ -6,4 +6,7 @@
 ..\obj\tracking.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\tracking.o: ..\Drivers\SYS\Inc\system_stm32f10x.h
 ..\obj\tracking.o: ..\Drivers\BSP\Inc\Control.h
+<<<<<<< HEAD
 ..\obj\tracking.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+=======
+>>>>>>> dev

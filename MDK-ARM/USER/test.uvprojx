@@ -436,9 +436,9 @@
               <FilePath>..\Drivers\SYS\Src\sys.c</FilePath>
             </File>
             <File>
-              <FileName>usart.c</FileName>
+              <FileName>delay.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Drivers\SYS\Src\usart.c</FilePath>
+              <FilePath>..\Drivers\SYS\Src\delay.c</FilePath>
             </File>
           </Files>
         </Group>

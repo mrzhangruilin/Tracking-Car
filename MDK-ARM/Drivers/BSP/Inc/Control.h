@@ -7,9 +7,10 @@
 
 
 
-//函数声明		//接口	//开漏输出
+//函数声明
 void Control_Init(void);
 void Control_Forward(void);
+void Control_Stop(void);
 void Control_Left(void);
 void Control_Right(void);
 
