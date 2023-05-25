@@ -15,10 +15,7 @@ void Control_Init(void)
 
 void Control_Forward(void)
 {
-    GPIOC->ODR |= (1<<6);
-    GPIOC->ODR |= (1<<7);
-    GPIOC->ODR |= (1<<8);
-    GPIOC->ODR |= (1<<9);               /*四个PC口均输出高电平*/
+    GPIOC->ODR |= (1<<6|1<<7|1<<8|1<<9);
 }
 
 void Control_Stop(void)
@@ -28,25 +25,14 @@ void Control_Stop(void)
 
 void Control_Left(void)
 {
-    GPIOC->ODR |= (1<<6);
-    GPIOC->ODR &= ~(1<<7);
-    GPIOC->ODR |= (1<<8);
-    GPIOC->ODR &= ~(1<<9);               /*控制左前轮和左后轮的PC口输出高电平，控制右前轮和右后轮的PC口输出高电平*/
+    GPIOC->ODR |= (1<<6|1<<8);
+    GPIOC->ODR &= ~(1<<7|1<<9);
 }
 
 void Control_Right(void)
 {
-    GPIOC->ODR &= ~(1<<6);
-    GPIOC->ODR |= (1<<7);
-    GPIOC->ODR &= ~(1<<8);
-    GPIOC->ODR |= (1<<9);                 /*控制左前轮和左后轮的PC口输出低电平，控制右前轮和右后轮的PC口输出高电平*/
-}
-void Control_stop(void)
-{
-    GPIOC->ODR &= ~(1<<6);
-    GPIOC->ODR &= ~(1<<7);
-    GPIOC->ODR &= ~(1<<8);
-    GPIOC->ODR &= ~(1<<9);                /*四个PC口均输出低电平*/
+    GPIOC->ODR |= (1<<7|1<<9);
+    GPIOC->ODR &= ~(1<<6|1<<8);
 }
 
 

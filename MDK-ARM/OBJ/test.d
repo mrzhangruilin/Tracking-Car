@@ -6,3 +6,4 @@
 ..\obj\test.o: ..\Drivers\SYS\Inc\delay.h
 ..\obj\test.o: ..\Drivers\SYS\Inc\sys.h
 ..\obj\test.o: ..\Drivers\BSP\Inc\Control.h
+..\obj\test.o: ..\Drivers\BSP\Inc\Tracking.h
