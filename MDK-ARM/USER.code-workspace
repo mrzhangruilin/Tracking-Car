@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "USER"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"delay.h": "c",
+			"sys.h": "c",
+			"control.h": "c",
+			"tracking.h": "c",
+			"stm32f10x.h": "c"
+		}
+	}
+}
