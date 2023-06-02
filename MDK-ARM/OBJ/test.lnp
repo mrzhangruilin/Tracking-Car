@@ -3,6 +3,7 @@
 "..\obj\test.o"
 "..\obj\tracking.o"
 "..\obj\control.o"
+"..\obj\tim.o"
 "..\obj\sys.o"
 "..\obj\delay.o"
 --strict --scatter "..\OBJ\test.sct"

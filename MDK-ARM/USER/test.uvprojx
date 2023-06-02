@@ -421,6 +421,11 @@
               <FileType>1</FileType>
               <FilePath>..\Drivers\BSP\Src\Control.c</FilePath>
             </File>
+            <File>
+              <FileName>Tim.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Drivers\BSP\Src\Tim.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

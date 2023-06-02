@@ -25,15 +25,13 @@
 
 /* º¯ÊýÉùÃ÷ */
 void Control_Init(void);
-void Control_Forward(void);
-void Control_Retreat(void);
+void Control_Forward(uint8_t speed);
+void Control_Retreat(uint8_t speed);
 void Control_Stop(void);
-void Control_Left(void);
-void Control_Right(void);
-void Control_TurnAround(uint8_t dir);
+void Control_Speed(int8_t speed_L , int8_t speed_R);
 
 void Control_SwDir(uint8_t wheel , uint8_t dir);
-void Control_SwEnable(uint8_t wheel , uint8_t status);
+void Control_SetSpeed(uint8_t wheel , uint8_t speed);
 
 #endif
 

@@ -16,6 +16,12 @@
 
 #include "Control.h"
 
+extern  uint8_t WHEELS_LF_PW;   //脉宽，0-100
+extern  uint8_t WHEELS_RF_PW;   
+extern  uint8_t WHEELS_LR_PW;   
+extern  uint8_t WHEELS_RR_PW;   
+
+
 /**
  * @brief   电机驱动初始化函数
  * @retval  无返回值
@@ -38,25 +44,25 @@ void Control_Init(void)
     GPIOC->CRL |= 0X00033333;
 
     Control_SwDir(WHEELS_LF|WHEELS_LR|WHEELS_RF|WHEELS_RR , DIR_FORWARD);
-    Control_SwEnable(WHEELS_LF|WHEELS_LR|WHEELS_RF|WHEELS_RR , WHEELS_DISABLE);
+    Control_SetSpeed(WHEELS_LF|WHEELS_LR|WHEELS_RF|WHEELS_RR , 0);
 }
 
 /**
  * @brief   四驱前进
+ * @param   speed   0-100速度可调
 */
-void Control_Forward(void)
+void Control_Forward(uint8_t speed)
 {
-    Control_SwDir(WHEELS_LF|WHEELS_LR|WHEELS_RF|WHEELS_RR , DIR_FORWARD);
-    Control_SwEnable(WHEELS_LF|WHEELS_LR|WHEELS_RF|WHEELS_RR , WHEELS_ENABLE);
+    Control_Speed(speed , speed);
 }
 
 /**
  * @brief   四驱后退
+ * @param   speed   0-100速度可调
 */
-void Control_Retreat(void)
+void Control_Retreat(uint8_t speed)
 {
-    Control_SwDir(WHEELS_LF|WHEELS_LR|WHEELS_RF|WHEELS_RR , DIR_RETREAT);
-    Control_SwEnable(WHEELS_LF|WHEELS_LR|WHEELS_RF|WHEELS_RR , WHEELS_ENABLE);
+    Control_Speed(0-speed , 0-speed);
 }
 
 /**
@@ -64,48 +70,40 @@ void Control_Retreat(void)
 */
 void Control_Stop(void)
 {
-    Control_SwEnable(WHEELS_LF|WHEELS_LR|WHEELS_RF|WHEELS_RR , WHEELS_DISABLE);
+    Control_Speed(0,0);
 }
 
 /**
- * @brief   左转
+ * @brief   调节轮子速度
+ * @param   speed_L    左轮速度
+ * @param   speed_R    右轮速度
+ * 速度为±100，负值表示反转速度
 */
-void Control_Left(void)
+void Control_Speed(int8_t speed_L , int8_t speed_R)
 {
-    Control_SwDir(WHEELS_LF|WHEELS_LR|WHEELS_RF|WHEELS_RR , DIR_FORWARD);
-    Control_SwEnable(WHEELS_LF|WHEELS_LR , WHEELS_DISABLE);
-    Control_SwEnable(WHEELS_RF|WHEELS_RR , WHEELS_ENABLE);
-}
-
-/**
- * @brief   右转
-*/
-void Control_Right(void)
-{
-    Control_SwDir(WHEELS_LF|WHEELS_LR|WHEELS_RF|WHEELS_RR , DIR_FORWARD);
-    Control_SwEnable(WHEELS_LF|WHEELS_LR , WHEELS_ENABLE);
-    Control_SwEnable(WHEELS_RF|WHEELS_RR , WHEELS_DISABLE);
-}
-
-/**
- * @brief   原地掉头
- * @param   dir 方向，向左或向右掉头
-*/
-void Control_TurnAround(uint8_t dir)
-{
-    if (dir == TURNAROUND_LEFT)
+    if (speed_L>=0)
     {
-        Control_SwDir(WHEELS_LF|WHEELS_LR , DIR_RETREAT);
-        Control_SwDir(WHEELS_RF|WHEELS_RR , DIR_FORWARD);
-        Control_SwEnable(WHEELS_LF|WHEELS_LR|WHEELS_RF|WHEELS_RR , WHEELS_ENABLE);
+        Control_SwDir(WHEELS_LF|WHEELS_LR, DIR_FORWARD);
+        Control_SetSpeed(WHEELS_LF|WHEELS_LR , speed_L);
     }
     else
     {
-        Control_SwDir(WHEELS_LF|WHEELS_LR , DIR_FORWARD);
-        Control_SwDir(WHEELS_RF|WHEELS_RR , DIR_RETREAT);
-        Control_SwEnable(WHEELS_LF|WHEELS_LR|WHEELS_RF|WHEELS_RR , WHEELS_ENABLE);
+        Control_SwDir(WHEELS_LF|WHEELS_LR, DIR_RETREAT);
+        Control_SetSpeed(WHEELS_LF|WHEELS_LR , 0-speed_L);
+    }
+    
+    if (speed_R>=0)
+    {
+        Control_SwDir(WHEELS_RF|WHEELS_RR, DIR_FORWARD);
+        Control_SetSpeed(WHEELS_RF|WHEELS_RR , speed_R);
+    }
+    else
+    {
+        Control_SwDir(WHEELS_RF|WHEELS_RR, DIR_RETREAT);
+        Control_SetSpeed(WHEELS_RF|WHEELS_RR , 0-speed_R);
     }
 }
+
 
 /**
  * @brief   选择轮子方向
@@ -175,55 +173,27 @@ void Control_SwDir(uint8_t wheel , uint8_t dir)
 /**
  * @brief   控制轮子使能
  * @param   wheel   参考表wheels
- * @param   status  Enable or Disable
+ * @param   speed   0-100
 */
-void Control_SwEnable(uint8_t wheel , uint8_t status)
+void Control_SetSpeed(uint8_t wheel , uint8_t speed)
 {
     if (wheel&WHEELS_LF)
     {
-        if (status == WHEELS_ENABLE)
-        {
-            GPIOB->ODR |= (1<<3);
-        }
-        else
-        {
-            GPIOB->ODR &= ~(1<<3);
-        }
+        WHEELS_LF_PW = speed;
     }
 
     if (wheel&WHEELS_RF)
     {
-        if (status == WHEELS_ENABLE)
-        {
-            GPIOB->ODR |= (1<<8);
-        }
-        else
-        {
-            GPIOB->ODR &= ~(1<<8);
-        }
+        WHEELS_RF_PW = speed;
     }
 
     if (wheel&WHEELS_LR)
     {
-        if (status == WHEELS_ENABLE)
-        {
-            GPIOC->ODR |= (1<<1);
-        }
-        else
-        {
-            GPIOC->ODR &= ~(1<<1);
-        }
+        WHEELS_LR_PW = speed;
     }
 
     if (wheel&WHEELS_RR)
     {
-        if (status == WHEELS_ENABLE)
-        {
-            GPIOC->ODR |= (1<<4);
-        }
-        else
-        {
-            GPIOC->ODR &= ~(1<<4);
-        }
+        WHEELS_RR_PW = speed;
     }
 }
