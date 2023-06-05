@@ -426,6 +426,11 @@
               <FileType>1</FileType>
               <FilePath>..\Drivers\BSP\Src\Tim.c</FilePath>
             </File>
+            <File>
+              <FileName>Avoid.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Drivers\BSP\Src\Avoid.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

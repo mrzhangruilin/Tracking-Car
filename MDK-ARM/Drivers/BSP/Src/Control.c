@@ -15,6 +15,7 @@
 */
 
 #include "Control.h"
+#include "Tim.h"
 
 extern  uint8_t WHEELS_LF_PW;   //脉宽，0-100
 extern  uint8_t WHEELS_RF_PW;   
@@ -28,6 +29,9 @@ extern  uint8_t WHEELS_RR_PW;
 */
 void Control_Init(void)
 {
+    /* 定时器6初始化 */
+    TIM6_Init();			
+
     /* GPIOB GPIOC AFIO时钟使能 */
     RCC->APB2ENR |= (1<<3|1<<4|1<<0);
   

@@ -4,6 +4,7 @@
 "..\obj\tracking.o"
 "..\obj\control.o"
 "..\obj\tim.o"
+"..\obj\avoid.o"
 "..\obj\sys.o"
 "..\obj\delay.o"
 --strict --scatter "..\OBJ\test.sct"
